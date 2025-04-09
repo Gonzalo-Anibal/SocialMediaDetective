@@ -15,5 +15,17 @@ Comanda para descargar el modelo:
 
 run main.py
 
-# Ejemplo de uso   
+## Ejemplo de uso   
 python3 main.py --text "el joven de la plaza me cayo como el hoyo"
+
+
+# Run Programa
+
+``` bash
+uvicorn app.main:app --reload
+``` 
+
+``` bash
+cd social-media-detective
+npm start
+```
