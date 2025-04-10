@@ -18,16 +18,7 @@ cd test_models_ia/
 python3 main.py
 ```
 
-## Run Programa
-
-``` bash
-uvicorn app.main:app --reload
-``` 
-
-``` bash
-cd social-media-detective
-npm start
-```
+## Documentaciónde la API
 
 ### Swagger y Redoc
 
@@ -38,6 +29,23 @@ Para ver la documentación de la API en Swagger:
 Para ver la documentación de la API en ReDoc:
 
 > http://localhost:8000/redoc
+
+## Ejecutar el programa
+
+Para levantar el programa debemos tener al menos dos terminales abiertos, una para el servidor de Python y otra para el servidor de Node.js.
+
+Para levantar el servidor de Python:
+
+``` bash
+uvicorn app.main:app --reload
+``` 
+
+Para levantar el servidor de Node.js:
+
+``` bash
+cd social-media-detective
+npm start
+```
 
 ### Navegación
 
