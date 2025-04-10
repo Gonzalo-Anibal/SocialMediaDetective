@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 app = FastAPI(
-    title="New API",
+    title="Social Media Detective API",
 )
 
 origins = [

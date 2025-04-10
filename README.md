@@ -2,24 +2,23 @@
 
 Utilidad para predecir el sentimiento de un texto utilizando BERT (BertTokenizer, BertForSequenceClassification, BertModel)
 
-https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment
-nlptown/bert-base-multilingual-uncased-sentiment
+[![Hugging Face Hub](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment) [nlptown/bert-base-multilingual-uncased-sentiment](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)
 
-Comanda para descargar el modelo:
+Comandos para descargar e instalar el modelo:
 
-> pip3 install torch
+``` bash
+pip3 install torch
 
-> pip3 install transformers
+pip3 install transformers
 
-> pip install numpy==1.26.4  # Ejemplo: instala la última versión 1.x
+pip install numpy==1.26.4  # Ejemplo: instala la última versión 1.x
 
-run main.py
+cd test_models_ia/
 
-## Ejemplo de uso   
-python3 main.py --text "el joven de la plaza me cayo como el hoyo"
+python3 main.py
+```
 
-
-# Run Programa
+## Run Programa
 
 ``` bash
 uvicorn app.main:app --reload
@@ -29,3 +28,19 @@ uvicorn app.main:app --reload
 cd social-media-detective
 npm start
 ```
+
+### Swagger y Redoc
+
+Para ver la documentación de la API en Swagger:
+
+> http://localhost:8000/docs
+
+Para ver la documentación de la API en ReDoc:
+
+> http://localhost:8000/redoc
+
+### Navegación
+
+Para utilizar el aplicativo web, navegue a la siguiente URL:
+
+> http://localhost:3000/
